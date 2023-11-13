@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Test from './test/Test';
+import ProfileCard from './chapter_13/ProfileCard';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Test />
+    <ProfileCard />
   </React.StrictMode>,
   document.getElementById('root')
 );
