@@ -5,12 +5,15 @@ import reportWebVitals from './reportWebVitals';
 import Test from './test/Test';
 import ProfileCard from './chapter_13/ProfileCard';
 import DarkOrLight from './chapter_14/DarkOrLight';
+import MainPage from './chapter_14/MainPage';
+import Sample from './chapter_14/Sample';
+import Blocks from './chapter_15/Blocks';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>,
   document.getElementById('root')
 );

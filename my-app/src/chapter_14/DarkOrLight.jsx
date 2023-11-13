@@ -6,7 +6,7 @@ function DarkOrLight(props) {
     const [theme, setTheme] = useState("light");
 
     const toggleTheme = useCallback(() => {
-        theme == "light" ? setTheme("dark") : setTheme("light");
+        theme === "light" ? setTheme("dark") : setTheme("light");
         // if (theme == "light") {
         //     setTheme("dark");
         // } else if (theme == "dark") {
