@@ -7,3 +7,5 @@
 - $ cd my-app
 #### 애플리케이션 실행
 - $npm start
+### 스타일 컴포넌트 추가
+- npm install --save styled-components
