@@ -2,10 +2,10 @@ import Card from "./Card";
 
 function ProfileCard(props) {
     const profiles = [
-        { title: "김승기", backgroundColor: "lightgreen" },
-        { title: "tom", backgroundColor: "lightblue" },
-        { title: "jane", backgroundColor: "darkblue" },
-        { title: "jerry", backgroundColor: "lightyellow" }
+        { title: "김승기", backgroundColor: "lightgreen", info: "공부" },
+        { title: "tom", backgroundColor: "lightblue", info: "개발" },
+        { title: "jane", backgroundColor: "darkblue", info: "공부" },
+        { title: "jerry", backgroundColor: "lightyellow", info: "개발" }
     ];
     return (
         // <div>
@@ -24,7 +24,7 @@ function ProfileCard(props) {
             {profiles.map((profile, index) => (
                 <Card key={index} title={profile.title} backgroundColor={profile.backgroundColor}>
                     <p>{`안녕하세요, ${profile.title}입니다.`}</p>
-                    <p>저는 리액트를 사용해서 개발하고 있습니다.</p>
+                    <p>{`저는 리액트를 사용해서 ${profile.info}하고 있습니다.`}</p>
                 </Card>
             ))}
         </div>
