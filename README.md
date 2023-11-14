@@ -7,17 +7,17 @@
 - $ cd my-app
 #### 애플리케이션 실행
 - $npm start
-### 스타일 컴포넌트 추가
+#### 스타일 컴포넌트 추가
 - npm install --save styled-components
-### react-router-dom v6 - 페이징전환을 위해 사용하는 패키지 & styled-components v5 - CSS를 위한 사용하는 패키지 ( 설치후 package.json 에서 dependencies 확인할수있음)
+#### react-router-dom v6 - 페이징전환을 위해 사용하는 패키지 & styled-components v5 - CSS를 위한 사용하는 패키지 ( 설치후 package.json 에서 dependencies 확인할수있음)
 - npm install --save react-router-dom styled-components
-### 빌더
+#### 빌더
 - npm run build
-### serve 설치 - static 파일들을 서빙해주는 역할을 하는 프로그램
+#### serve 설치 - static 파일들을 서빙해주는 역할을 하는 프로그램
 - npm install -g server
-### server를 이용하여 웹애플리케이션 서빙
+#### server를 이용하여 웹애플리케이션 서빙
 - server -s build
-#### 에러...
+##### 에러...
 ![image](https://github.com/Seungkizz/react_study/assets/130020647/97fcd2d5-8432-4f68-b34f-c115b7560381)
 - 에러를 읽어보면 스크립트 실행 권한이 제한되어 있어 발생하는 문제임을 확인할 수 있다.
   스크립트 실행 권한을 변경시키기 위해서는 windows powershell을 관리자 권한으로 실행시켜서 변경해 주어야 한다.
