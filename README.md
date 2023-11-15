@@ -1,6 +1,7 @@
 # react_study
 리액트 공부하기!
-
+#### Lint 끄는 기능
+- /* eslint-disable */
 #### react app 생성
 - $ npx create-react-app <...>
 #### 경로변경
