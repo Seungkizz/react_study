@@ -2,18 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Test from './test/Test';
-import ProfileCard from './chapter_13/ProfileCard';
-import DarkOrLight from './chapter_14/DarkOrLight';
-import MainPage from './chapter_14/MainPage';
-import Sample from './chapter_14/Sample';
-import Blocks from './chapter_15/Blocks';
+import StudyReact from './test/StudyReact';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Blocks />
+   <StudyReact />
   </React.StrictMode>,
   document.getElementById('root')
 );
