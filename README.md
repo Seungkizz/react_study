@@ -1,17 +1,21 @@
 # react_study
-리액트 공부하기!
+
 #### Lint 끄는 기능
 - /* eslint-disable */
 #### react app 생성
-- $ npx create-react-app <...>
+- npx create-react-app <...>
 #### 경로변경
-- $ cd my-app
+- cd <...>
 #### 애플리케이션 실행
-- $npm start
+- npm start
 #### 스타일 컴포넌트 추가
 - npm install --save styled-components
 #### react-router-dom v6 - 페이징전환을 위해 사용하는 패키지 & styled-components v5 - CSS를 위한 사용하는 패키지 ( 설치후 package.json 에서 dependencies 확인할수있음)
 - npm install --save react-router-dom styled-components
+<hr />
+
+# 배포
+
 #### 빌더
 - npm run build
 #### serve 설치 - static 파일들을 서빙해주는 역할을 하는 프로그램
