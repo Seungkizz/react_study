@@ -1,5 +1,5 @@
 # react_study
-리액트 공부하기!
+
 #### Lint 끄는 기능
 - /* eslint-disable */
 #### react app 생성
@@ -12,6 +12,7 @@
 - npm install --save styled-components
 #### react-router-dom v6 - 페이징전환을 위해 사용하는 패키지 & styled-components v5 - CSS를 위한 사용하는 패키지 ( 설치후 package.json 에서 dependencies 확인할수있음)
 - npm install --save react-router-dom styled-components
+<hr />
 
 # 배포
 
