@@ -1,4 +1,6 @@
 # react_study
+#### vscode git 연동
+출처: https://developer-talk.tistory.com/84
 
 #### Lint 끄는 기능
 - /* eslint-disable */
@@ -32,4 +34,7 @@
 3. 권한 상태를 "RemoteSigned"으로 변경한다.
 4. get-ExecutionPolicy로 권한이 잘 변경되었는지 확인한다.
 5. 다시 VSCode로 돌아가서 원하는 명령을 실행해본다.
+
+#### gh-pages 배포하는방법
+출처: https://programmerplum.tistory.com/170
 
